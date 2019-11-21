@@ -1,0 +1,97 @@
+.pad{padding-top:120px}
+.padd{padding-left:20px; padding-top:10px; padding-bottom:10px}
+.cent{text-align:center;}
+.tort{max-width:max-content;}
+img:hover{-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);}
+.active{color:gray; background-color:white;}
+li{padding-right:10px}
+.foot{background-image: linear-gradient(-67deg, #dca123, silver); border: 1px solid #eeeeee;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);}
+.hr{color:#fff}
+ul.dropdown-menu{text-align:center;}
+.dropdown:hover .dropdown-menu{display:block; margin-top:0;}
+a:hover{background-color:gray; color:black; text-decoration:none;}
+.hor{padding:0px}
+.colo{color:gray; }
+.coloi{color:white; }
+.coloii{color:gray;}
+.goaw{padding-left:30px;}
+.brad{padding-bottom:120px}
+.jor{color:#7f91ff}
+.pagination > li:nth-child(1) > a:nth-child(1){color:gray;}
+.pagination > li:nth-child(2) > a:nth-child(1){color:gray;}
+.pagination > li:nth-child(3) > a:nth-child(1){color:gray;}
+.pagination > li:nth-child(4) > a:nth-child(1){color:gray;}
+.pagination > li:nth-child(5) > a:nth-child(1){color:gray;}
+.kou:hover{background-color:gray; color:white}
+
+body {
+    padding-bottom: 0px;min-height: 100%;
+	 background: url(../images/backg.png) no-repeat;
+}
+html { height: 100% }
+/*-- to-top --*/
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 20px;
+	right: 2%;
+	overflow: hidden;
+	z-index: 1500; 
+	width: 100px;
+	height: 100px;
+	border: none;
+	text-indent: 100%;
+	background: url(../images/point.png) no-repeat 0px 0px;
+} 
+#toTopHover {
+	width: 100px;
+	height: 100px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+/*-- //to-top --*/
+.main-content {
+position: relative;}
+
+    .owl-theme 
+        .custom-nav {
+            position: fixed;
+            top: 50%;
+            left: 0;
+		right: 0;}
+
+            .owl-prev, .owl-next {
+                position: fixed;
+                height: 100px;
+                color: inherit;
+                background: none;
+                border: none;
+			z-index: 1500;}
+
+                i {
+                    font-size: 50px;
+                    color: gray;
+                }
+            
+
+            .owl-prev {
+                left: 0;
+            }
+
+            .owl-next {
+                right: 0;
+            }
+}
+      /* shadow */
+	 
+
+/*shadow*/	  

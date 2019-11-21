@@ -1,0 +1,166 @@
+/* 
+.profile-image:hover .overlay {
+  position:absolute;
+  width: 411px;
+  height: 608px;
+  z-index: 100;
+  background: transparent url('../images/play.png') no-repeat;
+  cursor: pointer;
+} */
+.lopp{
+min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+	
+}
+hr{border:0.2px solid gray;}
+.blittle{padding-top:100px}
+.lost{max-width: 100%;
+  height: auto;}
+  .flot{float:left; padding-right:20px;}
+	  
+.image_hover_bg{
+background: url("/images/play.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+position: absolute;
+top: 0;
+z-index: -1;
+display:none;
+}
+.profile-image:hover .image_hover_bg{display:block}
+.mask {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+}
+img.zoom-img {
+  -webkit-transform:scale(1, 1);
+  -webkit-transition-timing-function:ease-out;
+  -webkit-transition-duration:500ms;
+  -moz-transform:scale(1, 1);
+  -moz-transition-timing-function:ease-out;
+  -moz-transition-duration:500ms;
+}
+img.zoom-img:hover {
+  -webkit-transform:rotate(-5deg) scale(1.15);
+  -webkit-transition-timing-function:ease-out;
+  -webkit-transition-duration:750ms;
+  -moz-transform:scale(1.15);
+  -moz-transition-timing-function:ease-out;
+  -moz-transition-duration:750ms;
+overflow: hidden;
+}
+
+ .social-icons {
+	margin-bottom: 1em;
+}
+.icon a i {
+    width: 32px;
+    height: 32px;
+    background:#fff  url(../images/facebook.png) no-repeat 0px 0px;
+    display: inline-block;
+	margin:0 0.2em;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	    border-radius: 20px;
+}
+.icona a i {
+    width: 32px;
+    height: 32px;
+    background:#fff  url(../images/insta.png) no-repeat 0px 0px;
+    display: inline-block;
+	margin:0 0.2em;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	    border-radius: 20px;
+}
+.icons a i {
+    width: 32px;
+    height: 32px;
+    background:#fff  url(../images/twitter.png) no-repeat 0px 0px;
+    display: inline-block;
+	margin:0 0.2em;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	    border-radius: 20px;
+}
+.icond a i {
+    width: 32px;
+    height: 32px;
+    background:#fff  url(../images/pinterest.png) no-repeat 0px 0px;
+    display: inline-block;
+	margin:0 0.2em;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	    border-radius: 20px;
+}
+.iconf a i {
+    width: 32px;
+    height: 32px;
+    background:#fff	url(../images/rss.png) no-repeat 0px 0px;
+    display: inline-block;
+	margin:0 0.2em;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	    border-radius: 20px;
+}
+.icong a i {
+    width: 32px;
+    height: 32px;
+    background:#fff  url(../images/email.png) no-repeat 0px 0px;
+    display: inline-block;
+	margin:0 0.2em;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	    border-radius: 20px;
+}
+
+ i.icon1:hover {
+  background: #gray  url(../images/fb.png) no-repeat ;
+      transform: rotateY(360deg);
+}
+
+ i.icon2:hover {
+  background: #gray  url(../images/ig.png) no-repeat ;
+      transform: rotateY(360deg);
+}
+
+ i.icon3:hover {
+  background: #gray  url(../images/tw.png) no-repeat ;
+      transform: rotateY(360deg);
+}
+
+ i.icon4:hover {
+  background: #gray  url(../images/pin.png) no-repeat ;
+      transform: rotateY(360deg);
+}
+i.icon5:hover {
+  background: #gray  url(../images/rs.png) no-repeat ;
+      transform: rotateY(360deg);
+}
+i.icon6:hover {
+  background: #gray  url(../images/em.png) no-repeat ;
+      transform: rotateY(360deg);
+}
