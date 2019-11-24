@@ -29,9 +29,9 @@ else{
 		res.download(filePath, fileName);
 		
 	});
-	app.get('/download/Joker.CLUB', function(req, res){
-		var filePath = "C:/Users/Pavilion g6/Documents/Nodejs/Starhd/uploads/Joker 2019 HD-TS. TWOMOVIES.CLUB";
-		var fileName = "Joker 2019 HD-TS. TWOMOVIES.CLUB";
+	app.get('/download/Joker.mp4', function(req, res){
+		var filePath = "C:/Users/Pavilion g6/Documents/Nodejs/Starhd/uploads/Joker.mp4";
+		var fileName = "Joker.mp4";
 		res.download(filePath, fileName);
 		
 	});

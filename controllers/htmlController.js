@@ -7,6 +7,10 @@ module.exports = function(app){
 		res.render('home');
 		
 	});
+	app.get('/Starhd/latest', function(req, res){
+		res.render('latest');
+		
+	});
 	app.get('/Starhd/Gothic_Harvest', function(req, res){
 		res.render('Gothic_Harvest');
 		

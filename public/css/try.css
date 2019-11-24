@@ -87,7 +87,7 @@ overflow: hidden;
 .icons a i {
     width: 32px;
     height: 32px;
-    background:#fff  url(../images/twitter.png) no-repeat 0px 0px;
+    background:silver  url(../images/twitter.png) no-repeat 0px 0px;
     display: inline-block;
 	margin:0 0.2em;
 	transition: 0.5s all;
@@ -148,7 +148,7 @@ overflow: hidden;
 }
 
  i.icon3:hover {
-  background: #gray  url(../images/tw.png) no-repeat ;
+  background: #dca123 url(../images/tw.png) no-repeat ;
       transform: rotateY(360deg);
 }
 

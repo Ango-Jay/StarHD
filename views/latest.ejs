@@ -7,6 +7,7 @@ StarHD
 <link type="text/css" rel="stylesheet" href="css/bootstrap.css" media="all" />
 <link type="text/css" rel="stylesheet" href="css/try.css" media="all" />
 <link type="text/css" rel="stylesheet" href="css/home.css" media="all" />
+
 <link type="text/css" rel="stylesheet" href="css/font-awesome.css"  media="all">
 <link rel="stylesheet" href="css/owl.carousel.min.css" media="all" />
 <link rel="stylesheet" href="css/owl.theme.default.min.css" media="all"/>
@@ -67,11 +68,11 @@ $(document).ready(function(){
 
 </head>
 <body>
-<nav class="navbar-fixed-top">
+<nav class="navbar-fixed-top" id="banner">
 <div class="container-fluid foot hor">
 <div class="navbar-header">
 <a class="navbar-left" href="#">
-<img alt="Brand" src="images/logo2.png" />
+<img class="imo" alt="Brand" src="images/logo2.png" />
 </a>
 <button type="button" class="navbar-toggle active coloii" data-target=".navbar-collapse" data-toggle="collapse" >
 <span class="icon-bar active coloii"></span>
@@ -81,8 +82,8 @@ $(document).ready(function(){
 </div>
 <div class="navbar-collapse collapse text-center" >
 <ul class="nav navbar-nav goaw">
-<li  ><a class="coloii active"href="home" > Home</a></li>
-<li><a href="#" class="coloi"> Latest Movies </a></li>
+<li  ><a class="coloi "href="home" > Home</a></li>
+<li><a href="latest" class="coloii active"> Latest Movies </a></li>
 <li class=" dropdown " ><a href="#" class="dropdown-toggle coloi" data-toggle="dropdown">Genre <span class="caret"> </span></a>
 <div class="text-center">
 <ul class="dropdown-menu">
@@ -95,9 +96,10 @@ $(document).ready(function(){
 </ul>
 <form class="navbar-form navbar-left" role="search" >
 <div class="form-group">
+    <i class="fa fa-search coloi" aria-hidden="true"></i> 
 <input type="text" class="formm-control" placeholder="Search" />
 </div>&nbsp;&nbsp;&nbsp;&nbsp;
-<button type="submit" class="btn btn-default">Submit</button>
+<button type="submit" class="btn btn-default">Search</button>
 </form>
 <ul class="nav navbar-nav navbar-right">
 <li><a href="#" class="coloi">Suscribe</a></li>
@@ -106,83 +108,116 @@ $(document).ready(function(){
 </div>
 </nav>
 
-<div  class="container blittle pad">
-	<div class="lopp" > 
-	<div class="row"> 
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-	<h2 class="jor">Joker (2019)</h2>
-	<video class="video lost" src="/uploads/Joker.mp4" type="video/mp4" controls  poster="images/joker.jpg">
-	<p>No support for HTML5 <code>video</code> element.</p>
-	</video>
-	
-	
-	</div>
-	</div>
-	<div class="row">
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-	<a href="/download/Joker.mp4" text-align="right" class="btn btn-default text-right kou">Download</a>
-	</div>
-	</div>
-	<div class="row"> 
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  "> 
-	  <img  alt="Gothic Harvest" src="images/joker.jpg" class="img-responsive flot" width="150" height="150" />
-	 <h2>&nbsp;&nbsp;Joker (2019) </h2>
-	 <ul class="list-unstyled text-center">
-		
-		 <li><b>Genre:</b>
-		 Action & Adventure, Drama, Mystery & Suspense</li>
-		 <li><b>Directed By:</b>
-		 Todd Phillips</li>
-		<li> <b>Written By:</b>
-		 Todd Phillips, Scott Silver</li>
-	   <li> <b> In Theaters:</b>
-		 Oct 3, 2019  wide</li>
-		<li> <b>Runtime:</b>
-		 122 minutes</li>
-		 <li><b>Studio:</b>
-		 Warner Bros. Pictures</li>
-		 <li> <b>Rating:</b>
-			R (for strong bloody violence, disturbing behavior, language and brief sexual images)</li>
-	 </ul>
-	<hr />
-	<h4>Synopsis</h4>
-	<p> "Joker" centers around the iconic arch nemesis and is an original, standalone fictional story not seen before on the big screen. Phillips' exploration of Arthur Fleck, who is indelibly portrayed by Joaquin Phoenix, is of a man struggling to find his way in Gotham's fracturedsociety. A clown-for-hire by day, he aspires to be a stand-up comic at night...but finds the joke always seems to be on him. Caught in a cyclical existence between apathy and cruelty, Arthur makes one bad decision that brings about a chain reaction of escalating events in this gritty character study.</p>
-	 <hr />
-	<h4>Tags</h4>
-	<p><a href="#">Comic</a>,<a href="#">Thriller</a></p>
-	</div>
-	</div>
-	</div>
-	</div>
-	
-	
-	<div class="container">
-	<div class="row">
-	<div class="col-lg-12 col-md-12">
-	<h4>YOU MAY ALSO LIKE</h4>
-	<div class="main-content">
-	<div class="owl-carousel owl-theme">
-	  <div class="item"><img src="images/jok1.jpg" >  </div>
-	   <div class="item"><img src="images/jok2.jpg" >  </div>
-		<div class="item"><img src="images/jok3.jpg" >  </div>
-		 <div class="item"><img src="images/jok4.jpg" >  </div>
-		  <div class="item"><img src="images/jok5.jpg" >  </div>
-		   <div class="item"><img src="images/jok6.jpg" >  </div>
-			<div class="item"><img src="images/jok7.jpg" >  </div>
-			 <div class="item"><img src="images/jok8.jpg" >  </div>
-			  <div class="item"><img src="images/jok9.jpg" >  </div>
-	  <div class="owl-theme">
-			<div class="owl-controls">
-				<div class="custom-nav owl-nav"></div>
-			</div>
-		</div>
-	</div>
-	</div>
-	</div>
-	
-	</div>
-	</div>
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12 pad">
+<div class="main-content">
+<div class="owl-carousel owl-theme">
+  <div class="item"><img class="img-responsive" src="images/jok1.jpg" >  </div>
+   <div class="item"><img class="img-responsive" src="images/jok2.jpg" >  </div>
+    <div class="item"><img class="img-responsive" src="images/jok3.jpg" >  </div>
+	 <div class="item"><img class="img-responsive" src="images/jok4.jpg" >  </div>
+	  <div class="item"><img class="img-responsive" src="images/jok5.jpg" >  </div>
+	   <div class="item"><img class="img-responsive" src="images/jok6.jpg" >  </div>
+	    <div class="item"><img class="img-responsive" src="images/jok7.jpg" >  </div>
+		 <div class="item"><img class="img-responsive" src="images/jok8.jpg" >  </div>
+		  <div class="item"><img class="img-responsive" src="images/jok9.jpg" >  </div>
+  <div class="owl-theme">
+        <div class="owl-controls">
+            <div class="custom-nav owl-nav"></div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
 
+</div>
+</div>
+<div class="container">
+<div  class="lopp">
+<div class="row" >
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+<div class="panel-heading" >
+<a href="#info" data-toggle="collapse">
+<h2 class="jor jomung">Gothic Harvest (2019) </h2>
+
+ <div class="mask tort" >
+  <a href="images/100acres.jpg" class="linke" >
+ <img  alt="Gothic Harvest" src="images/gothicharv.jpg" class="img-responsive zoom-img jumia" width="411" height="608"/> </a></div>
+ 
+ </a>
+ </div>
+ <div class="panel-body collapse" id="info" >
+ <p> GOTHIC HARVEST tells the chilling tale of four co-eds who head to New Orleans for Mardi Gras. When one of them disappears after connecting with a charming local, her friends race to find her before she falls victim to a sadistic Southern family plagued by a centuries-old voodoo curse.</p>
+
+   <ul class="list-unstyled text-center">
+   <li> <b>Rating:</b>
+     R (for strong bloody violence, disturbing behavior, language and brief sexual images)</li>
+   <li> <b>Genre:</b>
+    Horror</li>
+   <li> <b>Directed By:</b>
+    Ashley Hamilton</li>
+   <li> <b>Written By:</b>
+    Chris Kobin</li>
+    <li><b>On Disc/Streaming:</b>
+    Oct 15, 2019</li>
+	<li> <b>Runtime:</b>
+    82 minutes</li>
+   <li> <b>Studio:</b>
+    Cinedigm</li>
+</ul>
+<div class="text-center">
+<a href="/download/Gothic_Harvest.mp4" class="kou" > <button type="button" class="btn btn-default kou">Download</button></a></div>
+ </div>
+ </div>
+ 
+ <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+<div class="panel-heading" >
+<a href="#info1" data-toggle="collapse">
+<h2 class="jor jomung1">The Joker (2019) </h2>
+  
+ <div class="mask tort" >
+<a  href="images/joker.jpg" class="linke1">
+ <img  alt="The Joker" src="images/joker.jpg" class="img-responsive zoom-img jumia1" width="411" height="608"/>
+ </a>
+ </div>
+ 
+ </a>
+ </div>
+ <div class="panel-body collapse" id="info1" >
+ <p> "Joker" centers around the iconic arch nemesis and is an original, standalone fictional story not seen before on the big screen. Phillips' exploration of Arthur Fleck, who is indelibly portrayed by Joaquin Phoenix, is of a man struggling to find his way in Gotham's fracturedsociety. A clown-for-hire by day, he aspires to be a stand-up comic at night...but finds the joke always seems to be on him. Caught in a cyclical existence between apathy and cruelty, Arthur makes one bad decision that brings about a chain reaction of escalating events in this gritty character study.</p>
+<ul class="list-unstyled text-center">
+   <li> <b>Rating:</b>
+    R (for strong bloody violence, disturbing behavior, language and brief sexual images)</li>
+    <li><b>Genre:</b>
+    Action & Adventure, Drama, Mystery & Suspense</li>
+    <li><b>Directed By:</b>
+    Todd Phillips</li>
+   <li> <b>Written By:</b>
+    Todd Phillips, Scott Silver</li>
+  <li> <b> In Theaters:</b>
+    Oct 3, 2019  wide</li>
+   <li> <b>Runtime:</b>
+    122 minutes</li>
+    <li><b>Studio:</b>
+    Warner Bros. Pictures</li>
+</ul>
+<div class="text-center">
+<a href="/download/Joker.CLUB" class="kou" > <button type="button" class="btn btn-default kou">Download</button></a></div>
+ </div>
+ </div>
+</div>
+</div>
+</div>
+<div class="text-center">
+<ul class="pagination ">
+<li><a class="colo" href="#">&laquo;</a></li>
+<li><a class=" activeli" href="#">1</a></li>
+<li><a  class="colo" href="#">2</a></li>
+<li><a class="colo" href="#">3</a></li>
+<li><a class="colo" href="#">&raquo;</a></li>
+</ul>
+</div>
 <div class="container">
 <div class="row">
 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -208,9 +243,10 @@ We offer you to watch the latest Bollywood and Hollywood releases so you can be 
 <li><i class="fa fa-angle-right hr" aria-hidden="true"></i> <a  class="hr" href="FAQ.html" class="btn-sm btn-default"> FAQ     &nbsp;</a></li>
 </ul>
  </div>
-  <p align="center">2019 ©StarHD</p><br/><p align="center"> all trademarks and registered trademarks appearing on this site are property of their respective owners.| Site Credits| Sitemap| Design by <a href="jdesign.com" class="hr">J</a> </p>
-  <div align="center">
+ 
 <br>
+<img class="img-responsive make" alt="Brand" src="images/logo.png"/> 
+<div class=" text-center">
 <span class="icon"><a href="#"><!--<img src="images/facebook.png" width="30"height="30"  class="img-circle">--><i class="icon1" ></i>&nbsp&nbsp&nbsp </a></span>
 <span class="icona"><a href="#"><!--<img src="images/facebook.png" width="30"height="30"  class="img-circle">--><i class="icon2" ></i>&nbsp&nbsp&nbsp </a></span>
 <span class="icons"><a href="#"><!--<img src="images/facebook.png" width="30"height="30"  class="img-circle">--><i class="icon3" ></i>&nbsp&nbsp&nbsp </a></span>
@@ -218,7 +254,8 @@ We offer you to watch the latest Bollywood and Hollywood releases so you can be 
 <span class="iconf"><a href="#"><!--<img src="images/facebook.png" width="30"height="30"  class="img-circle">--><i class="icon5" ></i>&nbsp&nbsp&nbsp </a></span>
 <span class="icong"><a href="#"><!--<img src="images/facebook.png" width="30"height="30"  class="img-circle">--><i class="icon6" ></i>&nbsp&nbsp&nbsp </a></span>
 </div>
-  <img class="img-responsive" alt="Brand" src="images/logo.png"/> 
+  
+  <p align="center">2019 ©StarHD</p><br/><p align="center"> all trademarks and registered trademarks appearing on this site are property of their respective owners.| Site Credits| Sitemap| Design by <a href="jdesign.com" class="hr">J</a> </p>
 </footer>
 </div>
 <script type="text/javascript">
