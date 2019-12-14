@@ -2,15 +2,18 @@
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
+var urlencodedParser = bodyParser.urlencoded({ extended: false});
 var formidable = require('formidable');
 var folder = __dirname + '/views';
 app.set('views',  folder,);
 app.set('view engine', 'ejs',);
+//database
+var {mongoose} = require('./db/mongooseConfig');
+//database
 var port = process.env.PORT||1447 ;
 apiController = require('./controllers/apiController');
 htmlController = require('./controllers/htmlController');
 video = require('./controllers/video');
-
 
 
 

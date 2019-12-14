@@ -1,8 +1,11 @@
 var apiController = require('./apiController');
+var bodyParser = require('body-parser');
 module.exports = function(app){
 	app.get('/adminpanel', function(req, res){
 		res.render('admin');
+
 	});
+	
 	app.get('/Starhd/home', function(req, res){
 		res.render('home');
 		

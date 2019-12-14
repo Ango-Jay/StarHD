@@ -29,7 +29,13 @@ $(".jumia1").attr({src: "./images/Joker.jpg"});
 );
 //click function
 	$(".jomung").click(function() {
-    var img = $(".jumia");
+        var emo = $(".tbod1");
+        var eme = $(".tbod");
+        eme.removeClass("mhide");
+        emo.addClass("mhide");
+
+
+        var img = $(".jumia");
     
     if (img.width() > 200)
     {
@@ -42,6 +48,12 @@ $(".jumia1").attr({src: "./images/Joker.jpg"});
 });
 
 $(".jomung1").click(function() {
+    var emo = $(".tbod");
+    var eme = $(".tbod1");
+    eme.removeClass("mhide");
+    emo.addClass("mhide");
+  
+    
     var img = $(".jumia1");
     
     if (img.width() > 200)
