@@ -22,4 +22,36 @@ module.exports = function(app){
 		res.render('Joker');
 		
 	});
+	app.get('/Starhd/PointBlank', function(req, res){
+		res.render('Joker');
+		
+	});
+	app.get('/Starhd/Klaus', function(req, res){
+		res.render('Joker');
+		
+	});
+	app.get('/Starhd/Inception', function(req, res){
+		res.render('Joker');
+		
+	});
+	app.get('/Starhd/Hustle', function(req, res){
+		res.render('Joker');
+		
+	});
+	app.get('/Starhd/Extortion', function(req, res){
+		res.render('Joker');
+		
+	});
+	app.get('/Starhd/Endgame', function(req, res){
+		res.render('Joker');
+		
+	});
+	app.get('/Starhd/BeingFrank', function(req, res){
+		res.render('Joker');
+		
+	});
+	app.get('/Starhd/Aladdin', function(req, res){
+		res.render('Joker');
+		
+	});
 }

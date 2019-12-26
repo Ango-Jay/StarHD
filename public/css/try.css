@@ -138,29 +138,29 @@ overflow: hidden;
 }
 
  i.icon1:hover {
-  background: #gray  url(../images/fb.png) no-repeat ;
+  background: white  url(../images/fb.png) no-repeat ;
       transform: rotateY(360deg);
 }
 
  i.icon2:hover {
-  background: #gray  url(../images/ig.png) no-repeat ;
+  background: white  url(../images/ig.png) no-repeat ;
       transform: rotateY(360deg);
 }
 
  i.icon3:hover {
-  background: #dca123 url(../images/tw.png) no-repeat ;
+  background: white url(../images/tw.png) no-repeat ;
       transform: rotateY(360deg);
 }
 
  i.icon4:hover {
-  background: #gray  url(../images/pin.png) no-repeat ;
+  background: white  url(../images/pin.png) no-repeat ;
       transform: rotateY(360deg);
 }
 i.icon5:hover {
-  background: #gray  url(../images/rs.png) no-repeat ;
+  background: white  url(../images/rs.png) no-repeat ;
       transform: rotateY(360deg);
 }
 i.icon6:hover {
-  background: #gray  url(../images/em.png) no-repeat ;
+  background: white  url(../images/em.png) no-repeat ;
       transform: rotateY(360deg);
 }

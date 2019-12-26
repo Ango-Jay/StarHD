@@ -102,23 +102,24 @@ $(document).ready(function(){
 </div>
 </nav>
 
-<div class="container blittle">
+<div class="container dung">
     <div class="row">
-        <div class="paddd">
+        <div class="rat">
            
             
 
 <% if (data.length === 0) {%>
-	<h3>Search not found</h3>
+	<div class="well" ><h3 class="cent">Search not found</h3></div>
+	
+	
 <% } else {%>
 	<h3>Results for <%= query %> </h3>
-	 <div class="container">
-		<div class="row">
+	
 			<% for (var i=0; i<data.length; i++) { %> 
-			<div class="col-md-4">
+			<div class="col-lg-4 col-sm-6 col-md-4 col-xs-12">
 				<a href="/Starhd/<%=  data[i]._source.text %>"> 
 					<dir class="thumbnail">
-						<img src="images/<%= data[i]._source.text %>.jpg">
+						<img width="411" height="608" class="img-responsive" src="images/<%= data[i]._source.text %>.jpg">
 						<div class="caption">
 							<h3><%= data[i]._source.text%></h3>
 							
@@ -127,8 +128,6 @@ $(document).ready(function(){
 				</a>
 			</div>
 			<% } %>
-		</div>
-	</div>
 <% } %>
 
                 
