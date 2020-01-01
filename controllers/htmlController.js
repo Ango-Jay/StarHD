@@ -23,35 +23,35 @@ module.exports = function(app){
 		
 	});
 	app.get('/Starhd/PointBlank', function(req, res){
-		res.render('Joker');
+		res.render('PointBlank');
 		
 	});
 	app.get('/Starhd/Klaus', function(req, res){
-		res.render('Joker');
+		res.render('Klaus');
 		
 	});
 	app.get('/Starhd/Inception', function(req, res){
-		res.render('Joker');
+		res.render('Inception');
 		
 	});
 	app.get('/Starhd/Hustle', function(req, res){
-		res.render('Joker');
+		res.render('Hustle');
 		
 	});
 	app.get('/Starhd/Extortion', function(req, res){
-		res.render('Joker');
+		res.render('Extortion');
 		
 	});
 	app.get('/Starhd/Endgame', function(req, res){
-		res.render('Joker');
+		res.render('Endgame');
 		
 	});
 	app.get('/Starhd/BeingFrank', function(req, res){
-		res.render('Joker');
+		res.render('BeingF');
 		
 	});
 	app.get('/Starhd/Aladdin', function(req, res){
-		res.render('Joker');
+		res.render('Aladdin');
 		
 	});
 }
